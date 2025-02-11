@@ -1,0 +1,118 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+body{
+    background-color: lightsteelblue;
+}
+
+#bar{
+    text-align: center;
+    background-color: lightcoral;
+    padding: 4px;
+    margin: 0px;
+    width: 100%;
+    font-size: larger;
+    font-weight: bold;
+    clear: both;
+    
+}
+
+#main-nav{
+    background-color: lightgreen;
+    text-align: center;
+    margin-top: 15px;
+}
+
+#main-nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+    margin-right: 10px;
+    font-weight: bold;
+    font-size: medium;
+    position: relative;
+}
+
+#main-nav li:hover{
+    background-color: lightslategray;
+    color: white;
+}
+
+#main-nav ul ul {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 100%; 
+    background-color: lightslategray;
+    color: white;
+    padding: 0;
+}
+
+#main-nav li:hover ul{
+    display: block;
+    background-color: lightslategray;
+    color: white;
+    padding: 0;
+    float: left;
+}
+
+#main-nav li{
+    display: inline-block;
+    position: relative;
+}
+
+/* Main-Container */
+#main-container{
+    margin-left: 5px;
+    padding: 0px;
+}
+
+.content-box{
+    width: 50%;
+    float: left;
+}
+
+.content-main{
+    background-color: cadetblue;
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+#submit:hover{
+    background-color: greenyellow;
+    font-size: larger;
+
+}
+
+#name:focus {
+    width: 300px; 
+}
+
+/* Aside Container */
+#instructions:hover{
+    background-color: lightgreen;
+}
+
+#instructions{
+    background-color: lightpink;
+    float: right;
+    width: 40%;
+    border-radius: 15px;
+    margin-right: 5px;
+    padding: 0%;
+}
+
+#instructions h2{
+    text-align: center;
+}
+
+#instructions p{
+    font-size: medium;
+    margin-left: 10px;
+}
+
+
